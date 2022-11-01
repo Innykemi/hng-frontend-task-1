@@ -16,7 +16,6 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    width: 100%;
     .content {
       display: flex;
       flex-direction: column;
@@ -117,6 +116,15 @@
     }
     .share-dots {
       display: flex;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main-wrapper {
+    padding: 4rem 1rem;
+    .main-section {
+      padding: 0;
     }
   }
 }
