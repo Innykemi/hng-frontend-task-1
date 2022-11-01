@@ -12,6 +12,11 @@
   padding: 4rem 8.75%;
   color: #101828;
   .main-section {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
     .content {
       display: flex;
       flex-direction: column;
@@ -56,6 +61,22 @@
             height: 28px;
           }
         }
+        .share-dots {
+          position: absolute;
+          top: -1.3rem;
+          right: 0;
+          width: 2.5rem;
+          height: 2.5rem;
+          border: 1px dashed #D0D5DD;
+          border-radius: 50%;
+          display: none;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 1.25rem;
+            height: 1.25rem;
+          }
+        }
       }
       .link-section {
         display: flex;
@@ -77,8 +98,25 @@
         }
       }
     }
+    .social-section {
+      padding: 1.5rem 0;
+      .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+      }
+    }
   }
 }
 
-
-
+@media screen and (max-width: 767px) {
+  .main-wrapper .main-section .content .profile-section {
+    .share-button {
+      display: none;
+    }
+    .share-dots {
+      display: flex;
+    }
+  }
+}

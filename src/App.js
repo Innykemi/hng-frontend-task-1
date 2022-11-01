@@ -1,6 +1,9 @@
 import './App.scss';
 import ProfileImg from './profile-pic.jpg';
 import ShareIcon from './share-icon.svg';
+import DotsIcon from './dots.svg';
+import SlackIcon from './slack.svg';
+import GithubIcon from './github.svg';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
               <span className="share-button">
                 <img src={ShareIcon} alt="share-icon" />
               </span>
+              <span className="share-dots">
+                <img src={DotsIcon} alt="share-icon" />
+              </span>
             </div>
             <div className="link-section">
               <a href="https://twitter.com/innykemi/" className="button" target="_blank" rel="noreferrer">Twitter Link</a>
@@ -25,8 +31,13 @@ function App() {
               <a href="https://books.zuri.team/design-rules" className="button" id="book__design" target="_blank" rel="noreferrer">Design Books</a>
             </div>
           </div>
+          <div className="social-section">
+            <div className="social-icons">
+              <img src={SlackIcon} alt="slack" />
+              <img src={GithubIcon} alt="github" />
+            </div>
+          </div>
         </div>
-        <div className="social-section"></div>
       </div>
       <div className="footer-section">
         <div className="container">
