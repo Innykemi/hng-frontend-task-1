@@ -108,23 +108,51 @@
     }
   }
 }
-
-@media screen and (max-width: 767px) {
-  .main-wrapper .main-section .content .profile-section {
-    .share-button {
-      display: none;
-    }
-    .share-dots {
+.footer-section {
+  .container {
+    padding: 3rem 8.75%;
+    .footer-content {
       display: flex;
+      justify-content: space-between;
+      align-items: end;
+      height: 4rem;
+      border-top: 1px solid #EAECF0;
+      img {
+        height: 2rem;
+      }
+      .footer-text {
+        color: #667085;
+        margin: 0;
+      }
     }
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 767px) {
   .main-wrapper {
     padding: 4rem 1rem;
     .main-section {
       padding: 0;
+      .content .profile-section {
+        .share-button {
+          display: none;
+        }
+        .share-dots {
+          display: flex;
+        }
+      }
+    }
+  }
+  .footer-section {
+    .container {
+      padding: 2rem 0;
+      .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        height: auto;
+        padding: 2rem 1rem 0;
+      }
     }
   }
 }

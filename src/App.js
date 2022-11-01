@@ -4,6 +4,8 @@ import ShareIcon from './share-icon.svg';
 import DotsIcon from './dots.svg';
 import SlackIcon from './slack.svg';
 import GithubIcon from './github.svg';
+import ZuriLogo from './Zuri.Internship_Logo.png';
+import I4G from './I4G.png';
 
 function App() {
   return (
@@ -41,7 +43,11 @@ function App() {
       </div>
       <div className="footer-section">
         <div className="container">
-          <div className="footer-content"></div>
+          <div className="footer-content">
+            <img src={ZuriLogo} alt="zuri" />
+            <p className="footer-text">HNG Internship 9 Frontend Task</p>
+            <img src={I4G} alt="IF4" />
+          </div>
         </div>
       </div>
     </div>
