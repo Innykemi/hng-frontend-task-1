@@ -17,12 +17,12 @@ function App() {
               </span>
             </div>
             <div className="link-section">
-              <span className="link">Twitter Link</span>
-              <span className="link"></span>
-              <span className="link"></span>
-              <span className="link"></span>
-              <span className="link"></span>
-              <span className="link"></span>
+              <a href="https://twitter.com/innykemi/" className="button" target="_blank" rel="noreferrer">Twitter Link</a>
+              <a href="https://training.zuri.team/" className="button" id="btn__zuri" target="_blank" rel="noreferrer">Zuri Team</a>
+              <a href="http://books.zuri.team/" className="button" id="books" target="_blank" rel="noreferrer">Zuri Books</a>
+              <a href="https://books.zuri.team/" className="button" id="book__python" target="_blank" rel="noreferrer">Python Books</a>
+              <a href="https://background.zuri.team/" className="button" id="pitch" target="_blank" rel="noreferrer">Background Check for Coders</a>
+              <a href="https://books.zuri.team/design-rules" className="button" id="book__design" target="_blank" rel="noreferrer">Design Books</a>
             </div>
           </div>
         </div>
